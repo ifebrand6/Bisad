@@ -3,7 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/bisadtra/public_html/
     - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R imgs $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
